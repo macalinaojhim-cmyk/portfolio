@@ -1,7 +1,3 @@
-/* ═══════════════════════════════════════════════════════════════
-   ✏️  YOUR PORTFOLIO DATA — edit this one file to update the site.
-   Everything on the page is driven by what you put here.
-   ═══════════════════════════════════════════════════════════════ */
 
 export const profile = {
   name: "Jimboy Macalinao",
@@ -16,7 +12,6 @@ export const profile = {
   roles: [
     " an aspiring full-stack developer",
     " a problem solver",
-    " a self-learner",
     " a fast-learner",
     " open to work",
   ],
@@ -66,32 +61,27 @@ export const marquee = [
   "React",
   "Java",
   "NumPy",
-  "Streamlit",
-  "HTML/CSS",
   "Problem Solving",
 ];
 
 // Skill progress bars
 export const skills = [
-  { name: "JavaScript", level: 90 },
+  { name: "JavaScript", level: 80 },
   { name: "Python", level: 90 },
   { name: "Java", level: 60 },
-  { name: "React", level: 50 },
+  { name: "React", level: 90 },
 ];
 
 export const tools = [
   "Python",
   "JavaScript",
+  "PHP",
   "Java",
   "React",
-  "Vite",
   "NumPy",
   "Pandas",
   "Streamlit",
-  "HTML5",
-  "CSS3",
   "Git & GitHub",
-  "VS Code",
 ];
 
 export const toolsNote =

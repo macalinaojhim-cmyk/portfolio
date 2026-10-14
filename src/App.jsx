@@ -47,7 +47,7 @@ export default function App() {
 
       <main id="main">
         <Hero />
-        <Marquee items={["JavaScript", "Python", "React", "Java", "NumPy", "Streamlit", "HTML/CSS", "Problem Solving"]} />
+        <Marquee items={["JavaScript", "Python", "PHP", "Java", "React", "NumPy", "SQL", "Problem Solving"]} />
         <About />
         <Skills />
         <Projects />

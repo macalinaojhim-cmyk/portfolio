@@ -50,8 +50,7 @@ export default function Navbar({ theme, onToggleTheme }) {
     <header className={`navbar${scrolled ? " scrolled" : ""}`} id="navbar">
       <nav className="nav-inner container" aria-label="Main navigation">
         <a href="#home" className="logo" onClick={close}>
-          {profile.logo}
-          <span className="logo-dot">.dev</span>
+          <span className="logo-dot">{profile.logo}</span>
         </a>
 
         <ul className={`nav-links${open ? " open" : ""}`} id="navLinks">
