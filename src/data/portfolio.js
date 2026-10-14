@@ -102,7 +102,7 @@ export const projects = [
       "My first real project: a schedule optimizer for print-laminate jobs. It helps arrange work orders to reduce conflicts and idle time at the shop — built end-to-end with Python, NumPy and Streamlit.",
     tags: ["Python", "NumPy", "Streamlit"],
     code: "#", // ✏️ your GitHub repo link
-    live: "#", // ✏️ your deployed app link
+    live: "https://cvgdy7laubetp4f2mprlbc.streamlit.app/", // ✏️ your deployed app link
   },
 ];
 
