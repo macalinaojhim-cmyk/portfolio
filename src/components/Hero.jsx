@@ -76,7 +76,7 @@ export default function Hero() {
           </div>
           <div className="hero-socials anim-in" style={{ "--d": ".55s" }}>
             {profile.socials.map((s) => (
-              <a key={s.name} href={s.href} aria-label={s.label}>
+              <a key={s.name} href={s.href} aria-label={s.label} target="_blank" >
                 <BrandIcon name={s.name} />
               </a>
             ))}

@@ -9,8 +9,7 @@ export default function Footer() {
         <div className="footer-inner">
           <div>
             <a href="#home" className="logo">
-              {profile.logo}
-              <span className="logo-dot">.dev</span>
+              <span className="logo-dot">{profile.logo}</span>
             </a>
             <p className="footer-tagline">Solving problems and building software, one commit at a time.</p>
           </div>

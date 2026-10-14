@@ -48,8 +48,8 @@ export const profile = {
 
   // Socials — put your real profile URLs in href
   socials: [
-    { name: "github", href: "#", label: "GitHub" },
-    { name: "linkedin", href: "#", label: "LinkedIn" },
+    { name: "github", href: "https://github.com/macalinaojhim-cmyk", label: "GitHub" },
+    { name: "linkedin", href: "https://www.linkedin.com/in/jimboy-macalinao-a55b2b416?utm_source=share_via&utm_content=profile&utm_medium=member_android", label: "LinkedIn" },
     { name: "facebook", href: "https://web.facebook.com/jimboy.macalinao", label: "Facebook" },
   ],
 };
@@ -68,8 +68,10 @@ export const marquee = [
 export const skills = [
   { name: "JavaScript", level: 80 },
   { name: "Python", level: 90 },
+  { name: "PHP", level: 50},
   { name: "Java", level: 60 },
   { name: "React", level: 90 },
+  { name: "MySQL", level: 50}
 ];
 
 export const tools = [
