@@ -39,7 +39,7 @@ export const profile = {
   // Animated counter stats
   stats: [
     { value: 1, suffix: "", label: "Project Built" },
-    { value: 200, suffix: "+", label: "OJT Hours" },
+    { value: 85, suffix: "+", label: "OJT Hours" },
     { value: 4, suffix: "", label: "Languages" },
     { value: 100, suffix: "%", label: "Self-Taught" },
   ],
