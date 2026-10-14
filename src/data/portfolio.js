@@ -99,7 +99,7 @@ export const projects = [
     emoji: "🖨️",
     gradient: ["#f59e0b", "#ef4444"],
     description:
-      "My first real project: a schedule optimizer for print-laminate jobs. It helps arrange work orders to reduce conflicts and idle time at the shop — built end-to-end with Python, NumPy and Streamlit.",
+      "My first real project: a schedule optimizer for print-laminate jobs. It helps arrange work orders to reduce conflicts and idle time at the shop — built end-to-end with Python, NumPy, Pandas, and Streamlit.",
     tags: ["Python", "NumPy", "Streamlit"],
     code: "https://github.com/macalinaojhim-cmyk/nwc/blob/main/sequence.py", // ✏️ your GitHub repo link
     live: "https://cvgdy7laubetp4f2mprlbc.streamlit.app/", // ✏️ your deployed app link
