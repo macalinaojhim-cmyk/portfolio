@@ -39,9 +39,9 @@ export const profile = {
   // Animated counter stats
   stats: [
     { value: 1, suffix: "", label: "Project Built" },
-    { value: 85, suffix: "+", label: "OJT Hours" },
+    { value: 200, suffix: "+", label: "OJT Hours" },
     { value: 4, suffix: "", label: "Languages" },
-    { value: 100, suffix: "%", label: "Self-Taught" },
+    { value: 85, suffix: "%", label: "Self-Taught" },
   ],
 
   badges: ["📍 Mercedes, Camarines Norte", "🎓 OJT at HeroApps", "🌍 Open to Work"],
