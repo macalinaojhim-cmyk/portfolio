@@ -2,137 +2,224 @@
 export const profile = {
   name: "Jimboy Macalinao",
   initials: "JM",
-  logo: "jim", // logo shows as "jimboy.dev" — change if you want
+  logo: "jim",
 
-  // ✏️ YOUR PHOTO — put your image file at src/assets/profile.jpg
-  //    and set photo: true to show it (false/null = show "JM" initials).
   photo: true,
 
-  // Typing effect in the hero ("I am ..." + these)
+  // Hero typing effect
   roles: [
-    " an aspiring full-stack developer",
+    " an Applied Mathematics student",
+    " an aspiring software developer",
     " a problem solver",
-    " a fast-learner",
-    " open to work",
+    " an analytical thinker",
+    " a developer driven by real-world problems",
   ],
 
-  tagline: "Aspiring Full-Stack Developer",
-  location: "Mercedes, Camarines Norte",
-  availability: "Open to Work",
+  tagline: "Applied Mathematics × Software Development",
+
+  location: "Mercedes, Camarines Norte, Philippines",
+  availability: "Open to Entry-Level Opportunities",
 
   heroDesc:
-    "Aspiring full-stack developer. I love taking real problems and turning them into working software — one self-taught project at a time.",
+    "I combine mathematical thinking and software development to solve practical problems. From optimization algorithms to web applications, I enjoy transforming ideas, data, and real-world challenges into useful software solutions.",
 
-  // Bio paragraphs (About section)
+  // About section
   about: [
-    "I'm a 4th year BS in Applied Mathemathics aspiring full-stack developer. I'm early in my journey, but I'm hooked: I love finding real problems and building tools that solve them.",
-    "My strength is problem solving. I learn fast, research deeply, and I'm not afraid to break things until they work. My first project — a print-laminate schedule optimizer — was born exactly that way.",
+    "I'm a 4th-year BS Applied Mathematics student with a growing background in software development. My academic foundation has trained me to approach problems analytically, understand complex systems, and think logically. I'm applying these skills to build practical software solutions.",
+
+    "My journey into programming started with curiosity about how technology can solve real-world problems. I've explored Python, JavaScript, React, PHP, and database development through self-directed learning and hands-on projects.",
+
+    "During my 200-hour On-the-Job Training at HeroApps Software Development Services, I gained practical experience working with a development team, improving frontend interfaces, implementing responsive layouts, and understanding collaborative software development workflows.",
+
+    "I believe mathematics is more than formulas and equations. It is a foundation for logical thinking, optimization, and decision-making. I see software development as a way to turn those mathematical ideas into tools that people can actually use."
   ],
 
   facts: [
-    { icon: "🧠", label: "Problem solver first" },
-    { icon: "📚", label: "Self-learning daily" },
-    { icon: "💪", label: "Persistent with bugs" },
-    { icon: "🤝", label: "Open to feedback" },
+    { icon: "🧮", label: "Mathematical Foundation" },
+    { icon: "💻", label: "Hands-on Development" },
+    { icon: "📊", label: "Analytical Problem Solving" },
+    { icon: "🚀", label: "Continuous Learning" },
   ],
 
-  // Animated counter stats
+  // Portfolio statistics
   stats: [
-    { value: 1, suffix: "", label: "Project Built" },
-    { value: 200, suffix: "+", label: "OJT Hours" },
-    { value: 4, suffix: "", label: "Languages" },
-    { value: 85, suffix: "%", label: "Self-Taught" },
+    { value: 2, suffix: "+", label: "Projects Built" },
+    { value: 200, suffix: "", label: "OJT Hours Completed" },
+    { value: 5, suffix: "+", label: "Programming Technologies" },
+    { value: 1, suffix: "", label: "Mathematics-Driven Approach" },
   ],
 
-  badges: ["📍 Mercedes, Camarines Norte", "🎓 OJT at HeroApps", "🌍 Open to Work"],
+  badges: [
+    "📍 Camarines Norte, Philippines",
+    "🎓 BS Applied Mathematics",
+    "💼 Open to Opportunities",
+  ],
 
-  // Socials — put your real profile URLs in href
   socials: [
-    { name: "github", href: "https://github.com/macalinaojhim-cmyk", label: "GitHub" },
-    { name: "linkedin", href: "https://www.linkedin.com/in/jimboy-macalinao-a55b2b416?utm_source=share_via&utm_content=profile&utm_medium=member_android", label: "LinkedIn" },
-    { name: "facebook", href: "https://web.facebook.com/jimboy.macalinao", label: "Facebook" },
+    {
+      name: "github",
+      href: "https://github.com/macalinaojhim-cmyk",
+      label: "GitHub",
+    },
+    {
+      name: "linkedin",
+      href: "https://www.linkedin.com/in/jimboy-macalinao-a55b2b416/",
+      label: "LinkedIn",
+    },
+    {
+      name: "facebook",
+      href: "https://web.facebook.com/jimboy.macalinao",
+      label: "Facebook",
+    },
   ],
 };
 
-// Tech marquee strip under the hero
+
+// TECHNOLOGY MARQUEE
 export const marquee = [
-  "JavaScript",
   "Python",
+  "JavaScript",
   "React",
+  "PHP",
   "Java",
+  "MySQL",
   "NumPy",
-  "Problem Solving",
+  "Pandas",
+  "HTML",
+  "CSS",
+  "Git & GitHub",
+  "Optimization",
 ];
 
-// Skill progress bars
+
+// SKILLS
+// Percentages are indicative self-assessments, not certifications.
 export const skills = [
-  { name: "JavaScript", level: 80 },
-  { name: "Python", level: 90 },
-  { name: "PHP", level: 50},
-  { name: "Java", level: 60 },
-  { name: "React", level: 90 },
-  { name: "MySQL", level: 50}
+  { name: "Python", level: 75 },
+  { name: "JavaScript", level: 70 },
+  { name: "React", level: 65 },
+  { name: "PHP", level: 50 },
+  { name: "Java", level: 45 },
+  { name: "MySQL / SQL", level: 50 },
+  { name: "HTML & CSS", level: 75 },
+  { name: "NumPy & Pandas", level: 65 },
 ];
 
+
+// TOOLS AND TECHNOLOGIES
 export const tools = [
   "Python",
   "JavaScript",
   "PHP",
   "Java",
   "React",
+  "HTML5",
+  "CSS3",
+  "MySQL",
   "NumPy",
   "Pandas",
   "Streamlit",
   "Git & GitHub",
+  "VS Code",
 ];
 
 export const toolsNote =
-  "Currently sharpening React and JavaScript — next up: Node.js, SQL and more backend fundamentals.";
+  "Building a stronger foundation in full-stack development, backend programming, databases, and data-driven applications. Currently focusing on JavaScript, React, PHP, and SQL while exploring backend technologies.";
 
-// Projects — category: "web" | "mobile" | "uiux"
+
+// PROJECTS
 export const projects = [
   {
     title: "Print-Laminate Schedule Optimizer",
     category: "web",
-    tag: "Web App",
+    tag: "Optimization / Data Science",
     featured: true,
     emoji: "🖨️",
     gradient: ["#f59e0b", "#ef4444"],
+
     description:
-      "My first real project: a schedule optimizer for print-laminate jobs. It helps arrange work orders to reduce conflicts and idle time at the shop — built end-to-end with Python, NumPy, Pandas, and Streamlit.",
-    tags: ["Python", "NumPy", "Streamlit"],
-    code: "https://github.com/macalinaojhim-cmyk/nwc/blob/main/sequence.py", // ✏️ your GitHub repo link
-    live: "https://cvgdy7laubetp4f2mprlbc.streamlit.app/", // ✏️ your deployed app link
+      "A mathematics-driven scheduling application designed to optimize print-laminate job sequences. It applies computational logic and data processing to organize work orders, helping reduce scheduling conflicts and unnecessary idle time.",
+
+    tags: [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Streamlit",
+      "Optimization",
+    ],
+
+    code:
+      "https://github.com/macalinaojhim-cmyk/nwc/blob/main/sequence.py",
+
+    live:
+      "https://cvgdy7laubetp4f2mprlbc.streamlit.app/",
+  },
+
+  {
+    title: "Optimized Inventory Management System",
+    category: "web",
+    tag: "Full-Stack Web Application",
+    featured: true,
+    emoji: "📦",
+    gradient: ["#3b82f6", "#06b6d4"],
+
+    description:
+      "A web-based inventory management application that combines CRUD operations, stock monitoring, and mathematical inventory models. It incorporates Economic Order Quantity (EOQ) and Reorder Point (ROP) calculations to support more informed inventory decisions.",
+
+    tags: [
+      "React",
+      "JavaScript",
+      "PHP",
+      "MySQL",
+      "EOQ",
+      "ROP",
+    ],
+
+    code:
+      "https://github.com/macalinaojhim-cmyk/inventory",
+
+    live: null,
   },
 ];
 
-// Experience timeline — add more objects as you grow
+
+// EXPERIENCE
 export const experience = [
   {
-    role: "OJT — Software Development Intern",
-    company: "HeroApps Software Development",
-    period: "200 Hours",
-    desc: "Completed 200 hours of on-the-job training in software development, working with a real dev team and getting hands-on exposure to how production software is built.",
+    role: "Software Development Intern",
+    company: "HeroApps Software Development Services",
+    period: "September – October 2026",
+    
+    desc:
+      "Completed 200 hours of On-the-Job Training, gaining practical experience in frontend development, React, JavaScript, PHP fundamentals, responsive web design, UI improvements, Git workflows, and collaborative software development. Contributed to enhancements for an administrative web application.",
+
     current: false,
   },
+
   {
-    role: "Self-Learning & Building",
-    company: "Open to work",
-    period: "Now",
-    desc: "Leveling up daily — sharpening React and JavaScript, exploring backend development, and looking for my first full-time role or OJT opportunity.",
+    role: "Independent Software Development",
+    company: "Personal Projects & Continuous Learning",
+    period: "2026 – Present",
+
+    desc:
+      "Developing practical applications that connect mathematical concepts with software engineering. Exploring full-stack development, database management, optimization, and analytical problem-solving through hands-on projects.",
+
     current: true,
   },
 ];
 
-// Testimonials — leave empty [] to hide the section
+
+// TESTIMONIALS
 export const testimonials = [];
 
-// Contact details — leave phone/email empty ("") to hide that item
+
+// CONTACT DETAILS
 export const contact = {
-  email: "macalinaojhim@gmail.com.com", // ✏️ replace with your email
-  phone: "+63956 309 0725", // ✏️ e.g. "+63 912 345 6789" — or keep "" to hide
+  email: "macalinaojhim@gmail.com",
+  phone: "+63956 309 0725",
   location: "Mercedes, Camarines Norte, Philippines",
 };
 
-// Form backend: see README for Formspree / EmailJS setup
-export const formEndpoint = null; // e.g. "https://formspree.io/f/yourFormId"
+
+// FORM BACKEND
+export const formEndpoint = null;
